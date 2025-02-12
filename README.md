@@ -17,23 +17,17 @@ PassGen is a fun and secure password generator that creates passwords based on j
 ```sh
 git clone https://github.com/yourusername/PassGen.git
 cd PassGen
+```
 2️⃣ Install required dependencies
-
-sh
-Copy
-Edit
+```sh
 pip install -r requirements.txt
+```
 🎯 Usage
 Run the script using:
-
-sh
-Copy
-Edit
+```sh
 python passgen.py
+```
 Example Output:
-ruby
-Copy
-Edit
 ██████╗  █████╗ ███████╗████████╗ ██████╗ ███████╗███╗   ██╗
 ██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔════╝ ██╔════╝████╗  ██║
 ██████╔╝███████║███████╗   ██║   ██║  ███╗█████╗  ██╔██╗ ██║
@@ -41,18 +35,10 @@ Edit
 ██║     ██║  ██║███████║   ██║   ╚██████╔╝███████╗██║ ╚████║
 ╚═╝     ╚═╝  ╚═╝╚══════╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═══╝
 
+
 🔒 Generated Password: Why#do_programmers@prefer-dark_mode?
-📌 Requirements
-Python 3.x
-Install dependencies using:
-sh
-Copy
-Edit
-pip install colorama pyfiglet requests
-💡 Customization
-Modify separators in generate_password()
-Change special characters at the end
-Enhance security by adding numbers, emojis, or capitalization
+
+
 🤝 Contributing
 Feel free to fork this repo, submit issues, or create pull requests to improve PassGen!
 
